@@ -1,0 +1,31 @@
+# Environment & Local Configurations
+.env
+.envrc
+*.env
+
+# Kubernetes & Kubeconfig Secrets
+kubeconfig
+*.kubeconfig
+remote-config
+k3s.yaml
+.kube/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.tmp
+
+# OpenCode & Logs
+.opencode/
+*.log

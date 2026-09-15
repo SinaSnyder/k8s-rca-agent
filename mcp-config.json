@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "kubernetes": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-kubernetes"
+      ],
+      "env": {
+        "KUBECONFIG": "~/.kube/config"
+      }
+    },
+    "victoriametrics": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-prometheus"
+      ],
+      "env": {
+        "PROMETHEUS_URL": "http://10.43.70.108:8428"
+      }
+    }
+  }
+}
